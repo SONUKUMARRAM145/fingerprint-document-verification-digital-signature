@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+uploads/
+backend_fingerprints/
+*.pyc
+*.pyo
+*.pyd
+*.pem
+database.json

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fingerprint Authentication</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fingerprint Authentication</h1>
+      <form
+        action="/upload_fingerprint/"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <input type="file" name="file" required /><br /><br />
+        <button type="submit">Authenticate</button>
+      </form>
+    </div>
+  </body>
+</html>

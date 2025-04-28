@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+torch
+torchvision
+opencv-python
+cryptography
+jinja2
+python-multipart
